@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
-import image from "../../../images/my-image.jpeg";
+import image from "../../../images/sharif.png";
 
 const InfoPage = () => {
   return (
@@ -12,11 +12,11 @@ const InfoPage = () => {
           <span className="text-2xl text-inherit">a Web Developer.</span>
         </h1>
         <p className="text-xl my-8 font-medium text-justify">
-          I am a junior web developer with one year of learning/working
-          experience. I love to work with logic and build it by programming.
+          I am a web developer with one year of learning/working experience. I
+          love to work with logic and build it by programming.
         </p>
         <div>
-          <h3 className="text-xl mt-5 mb-2 font-semibold">Find Me</h3>
+          <h3 className="text-xl mt-5 mb-2 font-semibold">Find With Me</h3>
           <div className="flex text-3xl ">
             <a
               className="mr-4 text-primary "

@@ -1,17 +1,27 @@
-import React from "react";
-import image from "../../../images/7-best-resale-value-bikes-min.webp";
-import image1 from "../../../images/learning.jpg";
-import image2 from "../../../images/tourist.jpg";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import React, { useEffect, useState } from "react";
+
+import SingleProject from "../SingleProject/SingleProject";
 
 const Projects = () => {
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch("projects.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setProjects(data);
+      });
+  }, []);
   return (
     <section id="projects" className="my-10">
       <h1 className="text-3xl text-center text-primary font-semibold">
         MY PROJECTS
       </h1>
       <div className="grid gap-8 grid-cols-1 lg:grid-cols-3 mt-16">
-        <div className="card bg-base-100 shadow-xl">
+        {projects.map((project) => (
+          <SingleProject key={project.id} project={project} />
+        ))}
+
+        {/* <div className="card bg-base-100 shadow-xl">
           <figure>
             <a
               className="mr-2"
@@ -97,7 +107,7 @@ const Projects = () => {
               <button className="btn btn-primary">Details</button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

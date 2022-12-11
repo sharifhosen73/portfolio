@@ -6,7 +6,12 @@ const Navbar = () => {
     <>
       <li>
         <Link to="info" spy={true} smooth={true} offset={50} duration={500}>
-          About
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+          About Me
         </Link>
       </li>
       <li>
@@ -54,6 +59,9 @@ const Navbar = () => {
             {menuItem}
           </ul>
         </div>
+        <Link className="text-secondary text-3xl normal-case font-bold ml-10">
+          SHARIF
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{menuItem}</ul>
