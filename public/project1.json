@@ -1,0 +1,12 @@
+{
+    "id":1,
+    "name": "RESALE BIKE",
+    "tech":"TECH : React JS, Tailwind CSS, Daisy UI, Node JS, Express JS, MongoDB",
+    "details1":"A dynamic website with build in admin, seller and buyer role authorization system.",
+    "details2":"Includes JWT and CURD operation with dedicated database and authentication.",
+    "details3":"Completely responsive for all smaller, medium and larger application.",
+    "img1" : "https://i.ibb.co/b6XFNwM/clever-licorice-b115f9-netlify-app-Nest-Hub-Max-1.png",
+    "img2" : "https://i.ibb.co/ts79sB1/clever-licorice-b115f9-netlify-app-Nest-Hub-Max-3.png",
+    "img3" : "https://i.ibb.co/hFzMNg9/clever-licorice-b115f9-netlify-app-Nest-Hub-Max-2.png"
+    
+}

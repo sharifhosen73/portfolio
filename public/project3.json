@@ -1,0 +1,12 @@
+{
+    "id":3,
+    "name": "PATHSHAL TUTORIAL",
+    "tech":"TECH : React JS, Tailwind CSS, Daisy UI, Node JS, Express JS, MongoDB",
+    "details1":"A dynamic website with build in admin, seller and buyer role authorization system.",
+    "details2":"Includes JWT and CURD operation with dedicated database and authentication.",
+    "details3":"Completely responsive for all smaller, medium and larger application.",
+    "img1" : "https://i.ibb.co/vh96xGn/pathshala-tutorial-web-app-Nest-Hub-Max-2.png",
+    "img2" : "https://i.ibb.co/XW8Xb6Z/pathshala-tutorial-web-app-Nest-Hub-Max.png",
+    "img3" : "https://i.ibb.co/yWrhwk1/pathshala-tutorial-web-app-Nest-Hub-Max-3.png"
+
+}
