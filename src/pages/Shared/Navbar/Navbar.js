@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const menuItem = [
@@ -28,6 +29,9 @@ const Navbar = () => {
         <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
           CONTACT ME
         </Link>
+      </li>
+      <li>
+        <NavLink to="/blog">Blog</NavLink>
       </li>
     </>,
   ];
@@ -59,9 +63,12 @@ const Navbar = () => {
             {menuItem}
           </ul>
         </div>
-        <Link className="text-secondary text-3xl normal-case font-bold ml-10">
+        <NavLink
+          to="/"
+          className="text-secondary text-3xl normal-case font-bold ml-10"
+        >
           SHARIF
-        </Link>
+        </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{menuItem}</ul>

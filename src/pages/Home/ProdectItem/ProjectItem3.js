@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ProductItem3 = () => {
   return (
-    <div className="hero py-14 lg:w-3/4 lg:mx-auto bg-orange-500">
+    <div className="hero py-14 lg:w-3/4 lg:mx-auto bg-base-100">
       <div className="hero-content flex-col lg:flex-row">
         <div className="w-2/5">
           <img
